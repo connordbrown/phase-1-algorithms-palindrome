@@ -3,11 +3,7 @@ function isPalindrome(word) {
   for(let i=(word.length-1); i >= 0; i--) {
     newWord += word[i];
   };
-  if (newWord === word) {
-    return true;
-  } else {
-    return false;
-  };
+  return newWord === word;
 }
 /* 
   Create a new string by reversing the word passed in.
